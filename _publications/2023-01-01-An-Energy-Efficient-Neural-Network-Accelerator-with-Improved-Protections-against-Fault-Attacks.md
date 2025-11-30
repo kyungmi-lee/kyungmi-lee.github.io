@@ -1,12 +1,12 @@
 ---
-title: "An Energy-Efficient Neural Network Accelerator with Improved Protections against Fault-Attacks"
+title: "An Energy-Efficient Neural Network Accelerator with Improved Protections Against Fault-Attacks"
 collection: publications
-permalink: /publication/2023-01-01-An-Energy-Efficient-Neural-Network-Accelerator-with-Improved-Protections-against-Fault-Attacks
+permalink: /publication/2023-01-01-An-Energy-Efficient-Neural-Network-Accelerator-with-Improved-Protections-Against-Fault-Attacks
 category: conferences
-excerpt: 'Student Research Preview (ISSCC 2023) Poster Award'
+excerpt: 'Student Research Preview (ISSCC&apos;23) Best Poster'
 date: 2023-01-01
-venue: 'In the proceedings of IEEE 49th European Solid-State Circuits Conference'
-paperurl: 'https://ieeexplore.ieee.org/document/10268746'
-citation: ' Saurav Maji,  Kyungmi Lee,  Cheng Gongye,  Yunsi Fei,  Anantha Chandrakasan, &quot;An Energy-Efficient Neural Network Accelerator with Improved Protections against Fault-Attacks.&quot; In the proceedings of IEEE 49th European Solid-State Circuits Conference, 2023.'
+venue: 'In the proceedings of IEEE 49th European Solid State Circuits Conference (ESSCIRC)'
+paperurl: 'https://doi.org/10.1109/ESSCIRC59616.2023.10268746'
+citation: ' Saurav Maji,  Kyungmi Lee,  Cheng Gongye,  Yunsi Fei,  Anantha Chandrakasan, &quot;An Energy-Efficient Neural Network Accelerator with Improved Protections Against Fault-Attacks&quot;, In the proceedings of IEEE 49th European Solid State Circuits Conference (ESSCIRC), 2023.'
 ---
-Student Research Preview (ISSCC 2023) Poster Award
+Student Research Preview (ISSCC&apos;23) Best Poster

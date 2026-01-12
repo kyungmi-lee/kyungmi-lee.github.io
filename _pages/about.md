@@ -35,7 +35,7 @@ My research has been recognized with the Siebel Scholars Award and the Best Stud
 
 <div style="font-size: 0.9em;" markdown="1">
 
-**[Dec 2025]** Sorbet is accepted to IEEE Transactions on VLSI Systems.<br>
+**[Dec 2025]** Sorbet is accepted to IEEE Transactions on VLSI Systems. [[Paper]](https://ieeexplore.ieee.org/document/11343916) <br>
 **[Sept 2025]** SquareLoop is accepted to HASP'25. [[Paper]](https://dl.acm.org/doi/10.1145/3768725.3768732) [[Code]](https://github.com/maeri-project/squareloop) <br>
 **[Jan 2025]** Our review paper, "Secure Machine Learning Hardware: Challenges and Progress", has been published at IEEE Circuits & Systems Magazine. [[Paper]](https://ieeexplore.ieee.org/document/10876846) <br>
 **[Dec 2024]** I received MIT MTL Doctoral Dissertation Award and presented a talk at MTL Seminar! <br>

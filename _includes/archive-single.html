@@ -35,7 +35,7 @@
       {% endif %}
     {% else %}
       <p>
-        <span class="tag tag--{{ post.category }}">{{ post.category | slice: 0 | upcase }}{{ include.iteration }}</span>
+        <span class="pub-tag">[{{ post.category | slice: 0 | upcase }}{{ include.iteration }}]</span>
         <b><font size=4>{{ title }}</font></b>
       </p>
     {% endif %}
@@ -48,7 +48,7 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           {% if post.category != 'preprints' and post.venue != 'Under Review' %}
-            <font size = 3><p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p></font>
+            <font size = 3><p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p></font>
           {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -64,17 +64,17 @@
     
     <font size = 3>
     {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>{{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>{{ post.citation }}<br /><a href="{{ post.paperurl }}">[Paper]</a> | <a href="{{ post.slidesurl }}">[Slides]</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>{{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p>{{ post.citation }}<br /><a href="{{ post.paperurl }}">[Paper]</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p>{{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>{{ post.citation }}<br /><a href="{{ post.slidesurl }}">[Paper]</a></p>
     {% elsif post.citation %}
       <p>{{ post.citation }}</p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+      <p><a href=" {{ post.paperurl }} ">[Paper]</a></p>
     {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><a href="{{ post.slidesurl }}">[Slides]</a></p>
     {% endif %}
     </font>
 

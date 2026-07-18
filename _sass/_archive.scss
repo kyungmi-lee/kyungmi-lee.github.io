@@ -247,19 +247,11 @@
   }
 }
 
-.tag {
-  display: inline-block;
-  padding: 2px 5px;
-  margin-right: 5px;
-  border-radius: 3px;
+.pub-tag {
   font-weight: bold;
-  color: white
+  margin-right: 5px;
 }
 
-.tag--journals {
-  background-color: #6b5b95;
-}
-
-.tag--conferences {
-  background-color: #d64161;
+.notice--large {
+  font-size: $type-size-5 !important; // ~16px, matches body text
 }
